@@ -1,0 +1,23 @@
+{
+  "name": "visualise_path",
+  "version": "1.0.0",
+  "description": "Welcome to Pathfinding Visualizer! I built this application because I was fascinated by pathfinding algorithms, and I wanted to visualize them in action. I hope that you enjoy playing around with this visualization tool just as much as I enjoyed building it.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruchika06/VisualisePathFindingAlgo.git"
+  },
+  "author": "Ruchika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruchika06/VisualisePathFindingAlgo/issues"
+  },
+  "homepage": "https://github.com/Ruchika06/VisualisePathFindingAlgo#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
