@@ -1,9 +1,9 @@
 <html>
   <head>
-    <title>Pathfinding Visualizer</title>
+    <title>Visualising Pathfinding Algorithms</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link id="cssTheme" rel="stylesheet" href="public/styling/cssBasic.css"/>
-    <link rel="shortcut icon" type="image/png" href="public/styling/c_icon.png"/>
+    <link id="cssTheme" rel="stylesheet" href="public/style/cssBasic.css"/>
+    <link rel="shortcut icon" type="image/jpeg" href="public/style/r_icon.jpeg"/>
   </head>
   <body>
     <div id='navbarDiv'>
@@ -18,11 +18,7 @@
              <span class="caret"></span></a>
              <ul class="dropdown-menu">
                <li id='startButtonDijkstra'><a href="#">Dijkstra's Algorithm</a></li>
-               <li id='startButtonAStar2'><a href="#">A* Search</a></li>
-               <li id='startButtonGreedy'><a href="#">Greedy Best-first Search</a></li>
                <li id='startButtonAStar'><a href="#">Swarm Algorithm</a></li>
-               <li id='startButtonAStar3'><a href="#">Convergent Swarm Algorithm</a></li>
-               <li id='startButtonBidirectional'><a href="#">Bidirectional Swarm Algorithm</a></li>
                <li id='startButtonBFS'><a href="#">Breadth-first Search</a></li>
                <li id='startButtonDFS'><a href="#">Depth-first Search</a></li>
              </ul>
@@ -59,10 +55,10 @@
    </div>
     <div id="tutorial">
       <h3>Welcome to Pathfinding Visualizer!</h3>
-      <h6>This short tutorial will walk you through all of the features of this application.</h6>
+      <h6>Let me walk you through all of the features of this application.</h6>
       <p>If you want to dive right in, feel free to press the "Skip Tutorial" button below. Otherwise, press "Next"!</p>
       <div id="tutorialCounter">1/9</div>
-      <img id="mainTutorialImage" src="public/styling/c_icon.png">
+      <img id="mainTutorialImage" src="public/style/r_icon.jpeg">
       <button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button>
       <button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button>
       <button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>
